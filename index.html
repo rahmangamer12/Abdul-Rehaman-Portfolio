@@ -346,6 +346,29 @@
         
         [data-theme="dark"] .navbar.scrolled {
             background: rgba(26, 26, 46, 0.95);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        [data-theme="dark"] .navbar .nav-link {
+            color: #fff !important;
+            transition: color 0.3s ease;
+        }
+        
+        [data-theme="dark"] .navbar .nav-link:hover,
+        [data-theme="dark"] .navbar .nav-link.active {
+            color: var(--primary-color) !important;
+        }
+        
+        [data-theme="dark"] .navbar-brand {
+            color: #fff !important;
+        }
+        
+        [data-theme="dark"] .navbar.scrolled .nav-link {
+            color: #fff !important;
+        }
+        
+        [data-theme="dark"] .navbar.scrolled .navbar-brand {
+            color: #fff !important;
         }
         
         .navbar-brand {
